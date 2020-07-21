@@ -23,9 +23,10 @@ dir()
 ```
 
 ```
-## [1] "README.md"                    "sea-level.csv"                "sea-level_fig-1.csv"         
-## [4] "sea_data.csv"                 "sea_data1.csv"                "sea_level_coastal_area.html" 
-## [7] "sea_level_coastal_area.Rmd"   "Sea_Level_Coastal_Area.Rproj" "slr-impacts_nov2010.xls"
+##  [1] "figure"                       "README.md"                    "sea-level.csv"               
+##  [4] "sea-level_fig-1.csv"          "sea_data.csv"                 "sea_data1.csv"               
+##  [7] "sea_level_coastal_area.html"  "sea_level_coastal_area.md"    "sea_level_coastal_area.Rmd"  
+## [10] "Sea_Level_Coastal_Area.Rproj" "slr-impacts_nov2010.xls"
 ```
 
 Now we import the **datasets** that will be required for this problem and store them in 2 variables, **sea_data** and **sea_level**
@@ -244,19 +245,19 @@ g + geom_point() + labs(x = "% of land submerged", y = "Country Name", title = "
 
 ## **3. Work Flow**
 
-a. An **Exploratory Analysis** on the provided dataset was done.
-b. The main aim of the Analysis was to **understand the effects of rising sea level on the land masses**.
-c. We import the 2 datasets and do a bit of **pre processing**
-d. The first data set shows the **globally rising sea level**.
-e. We then look at the **total area of land masses in each country**. The countries were splitted into 2 sections **because plotting all the countries in one data set would have made the plot very clumsy!!**
-f. Now, we make **5 different plots** for **Sub Saharan Africa** countries and the **area that will be submerged** if the **sea level rises by 1, 2, 3, 4, 5 meters**
-g. Now, we make **5 different plots** for **non - Sub Saharan Africa** countries and the **area that will be submerged** if the **sea level rises by 1, 2, 3, 4, 5 meters**
+a. An **Exploratory Analysis** on the provided dataset was done.  
+b. The main aim of the Analysis was to **understand the effects of rising sea level on the land masses**.  
+c. We import the 2 datasets and do a bit of **pre processing**  
+d. The first data set shows the **globally rising sea level**.  
+e. We then look at the **total area of land masses in each country**. The countries were splitted into 2 sections **because plotting all the countries in one data set would have made the plot very clumsy!!**  
+f. Now, we make **5 different plots** for **Sub Saharan Africa** countries and the **area that will be submerged** if the **sea level rises by 1, 2, 3, 4, 5 meters**  
+g. Now, we make **5 different plots** for **non - Sub Saharan Africa** countries and the **area that will be submerged** if the **sea level rises by 1, 2, 3, 4, 5 meters**  
 
 ## **4. Conclusion**
 
-a. In the first plot we obsereve that the **global sea level is rising**. This is shown by the **blue regression line**.
-b. The same plot also demonstrates the **nature of increasing sea level is exponential**.
-c. The plots related to the **Land % submerged VS sea level** depicts a picture in front of us about the effect a rising sea level is going to have on the land masses.
-d. The plots for **other countries are splitted as per the Regions**, for an overview of the **% of land that will be under water if the sea level rises by X%**
-e. The Analysis was effected because, even after a lot of internet browsing, **an appropriate all in one data set was not found!!**
-f. Sites like **GitHub** and **Kaggle** were browsed to find a suitable dataset!!
+a. In the first plot we obsereve that the **global sea level is rising**. This is shown by the **blue regression line**.  
+b. The same plot also demonstrates the **nature of increasing sea level is exponential**.  
+c. The plots related to the **Land % submerged VS sea level** depicts a picture in front of us about the effect a rising sea level is going to have on the land masses.  
+d. The plots for **other countries are splitted as per the Regions**, for an overview of the **% of land that will be under water if the sea level rises by X%**  
+e. The Analysis was effected because, even after a lot of internet browsing, **an appropriate all in one data set was not found!!**  
+f. Sites like **GitHub** and **Kaggle** were browsed to find a suitable dataset!!  

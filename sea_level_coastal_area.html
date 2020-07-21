@@ -374,11 +374,12 @@ summary {
 <h2><strong>1. The data</strong></h2>
 <p>We check the present directory for the files that are present and then we will import the <strong>datasets</strong>.</p>
 <pre class="r"><code>dir()</code></pre>
-<pre><code>## [1] &quot;README.md&quot;                    &quot;sea-level.csv&quot;               
-## [3] &quot;sea-level_fig-1.csv&quot;          &quot;sea_data.csv&quot;                
-## [5] &quot;sea_data1.csv&quot;                &quot;sea_level_coastal_area.html&quot; 
-## [7] &quot;sea_level_coastal_area.Rmd&quot;   &quot;Sea_Level_Coastal_Area.Rproj&quot;
-## [9] &quot;slr-impacts_nov2010.xls&quot;</code></pre>
+<pre><code>##  [1] &quot;figure&quot;                       &quot;README.md&quot;                   
+##  [3] &quot;sea-level.csv&quot;                &quot;sea-level_fig-1.csv&quot;         
+##  [5] &quot;sea_data.csv&quot;                 &quot;sea_data1.csv&quot;               
+##  [7] &quot;sea_level_coastal_area.html&quot;  &quot;sea_level_coastal_area.md&quot;   
+##  [9] &quot;sea_level_coastal_area.Rmd&quot;   &quot;Sea_Level_Coastal_Area.Rproj&quot;
+## [11] &quot;slr-impacts_nov2010.xls&quot;</code></pre>
 <p>Now we import the <strong>datasets</strong> that will be required for this problem and store them in 2 variables, <strong>sea_data</strong> and <strong>sea_level</strong></p>
 <pre class="r"><code>sea_data &lt;- read.csv(&quot;sea_data.csv&quot;)
 sea_level &lt;- read.csv(&quot;sea-level.csv&quot;)</code></pre>
@@ -492,23 +493,34 @@ g + geom_point() + labs(x = &quot;% of land submerged&quot;, y = &quot;Country N
 <div id="work-flow" class="section level2">
 <h2><strong>3. Work Flow</strong></h2>
 <ol style="list-style-type: lower-alpha">
-<li>An <strong>Exploratory Analysis</strong> on the provided dataset was done.</li>
-<li>The main aim of the Analysis was to <strong>understand the effects of rising sea level on the land masses</strong>.</li>
-<li>We import the 2 datasets and do a bit of <strong>pre processing</strong></li>
-<li>The first data set shows the <strong>globally rising sea level</strong>.</li>
-<li>We then look at the <strong>total area of land masses in each country</strong>. The countries were splitted into 2 sections <strong>because plotting all the countries in one data set would have made the plot very clumsy!!</strong></li>
-<li>Now, we make <strong>5 different plots</strong> for <strong>Sub Saharan Africa</strong> countries and the <strong>area that will be submerged</strong> if the <strong>sea level rises by 1, 2, 3, 4, 5 meters</strong></li>
+<li>An <strong>Exploratory Analysis</strong> on the provided dataset was done.<br />
+</li>
+<li>The main aim of the Analysis was to <strong>understand the effects of rising sea level on the land masses</strong>.<br />
+</li>
+<li>We import the 2 datasets and do a bit of <strong>pre processing</strong><br />
+</li>
+<li>The first data set shows the <strong>globally rising sea level</strong>.<br />
+</li>
+<li>We then look at the <strong>total area of land masses in each country</strong>. The countries were splitted into 2 sections <strong>because plotting all the countries in one data set would have made the plot very clumsy!!</strong><br />
+</li>
+<li>Now, we make <strong>5 different plots</strong> for <strong>Sub Saharan Africa</strong> countries and the <strong>area that will be submerged</strong> if the <strong>sea level rises by 1, 2, 3, 4, 5 meters</strong><br />
+</li>
 <li>Now, we make <strong>5 different plots</strong> for <strong>non - Sub Saharan Africa</strong> countries and the <strong>area that will be submerged</strong> if the <strong>sea level rises by 1, 2, 3, 4, 5 meters</strong></li>
 </ol>
 </div>
 <div id="conclusion" class="section level2">
 <h2><strong>4. Conclusion</strong></h2>
 <ol style="list-style-type: lower-alpha">
-<li>In the first plot we obsereve that the <strong>global sea level is rising</strong>. This is shown by the <strong>blue regression line</strong>.</li>
-<li>The same plot also demonstrates the <strong>nature of increasing sea level is exponential</strong>.</li>
-<li>The plots related to the <strong>Land % submerged VS sea level</strong> depicts a picture in front of us about the effect a rising sea level is going to have on the land masses.</li>
-<li>The plots for <strong>other countries are splitted as per the Regions</strong>, for an overview of the <strong>% of land that will be under water if the sea level rises by X%</strong></li>
-<li>The Analysis was effected because, even after a lot of internet browsing, <strong>an appropriate all in one data set was not found!!</strong></li>
+<li>In the first plot we obsereve that the <strong>global sea level is rising</strong>. This is shown by the <strong>blue regression line</strong>.<br />
+</li>
+<li>The same plot also demonstrates the <strong>nature of increasing sea level is exponential</strong>.<br />
+</li>
+<li>The plots related to the <strong>Land % submerged VS sea level</strong> depicts a picture in front of us about the effect a rising sea level is going to have on the land masses.<br />
+</li>
+<li>The plots for <strong>other countries are splitted as per the Regions</strong>, for an overview of the <strong>% of land that will be under water if the sea level rises by X%</strong><br />
+</li>
+<li>The Analysis was effected because, even after a lot of internet browsing, <strong>an appropriate all in one data set was not found!!</strong><br />
+</li>
 <li>Sites like <strong>GitHub</strong> and <strong>Kaggle</strong> were browsed to find a suitable dataset!!</li>
 </ol>
 </div>
