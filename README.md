@@ -4,7 +4,7 @@
 
 ### The basic work flow is discussed below
 
-## **3. Work Flow**
+## **Work Flow**
 
 a. An **Exploratory Analysis** on the provided dataset was done.  
 b. The main aim of the Analysis was to **understand the effects of rising sea level on the land masses**.  
